@@ -11,7 +11,7 @@ The deploy-on feature also provides a means to deploy the same service on multip
 
 To install the ***MAIN Manager (Spire)***, please refer to the [Cloudify official documentation.](https://docs.cloudify.co/latest/install_maintain/installation/installing-manager/)
 
-You can also check [Cloudify ec2 provisoning](https://github.com/cloudify-community/cloudify-catalog/tree/6.4.0-build/cloudify_manager/ec2). It is the package to installation Manager on ec2 AWS instances.
+You can also check [Cloudify ec2 provisoning](https://github.com/cloudify-community/cloudify-catalog/tree/6.4.0-build/cloudify_manager/ec2). It is the package for installing the *Cloudify Manager* on an ec2 AWS instance.
 
 ## 2. Installation submanagers
 
