@@ -1,13 +1,14 @@
 # Using Cloudify as a Manager of Managers  (a.k.a  MoM or Spire)
 
-<picture>
+<p style="text-align:center">
   <img src="/images/spire.png" alt="MOM">
-  <p style="text-align:center">Center this text!</p>
-</picture>
+  Center this text!
+</p>
 
-The spire feature allows to control several managers (*local managers*) from one manager (*Spire*) via deploy-on feature.
+The Cloudify managers of managers (Spire) feature allows control of several managers (*local managers*) from one manager (*Spire*) via the deploy-on feature.
 The deploy-on feature allows users to deploy services on the discovered environments.
 The deploy-on feature also provides a means to deploy the same service on multiple environments using a single command. Users can group the environments based on location, tagging and filters.
+The following guide provides a step by step guide on how to install submanagers , add them to a central manager using a discovery mechanism , and deploy and application on multiple managers through a single command.
 
 
 ## 1. Installation Cloudify Spire Manager
