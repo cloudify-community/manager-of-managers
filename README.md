@@ -2,7 +2,7 @@
 <!-- ![Spire Manager]("Using Cloudify as a Manager of Managers") -->
 <figure>
   <img src="/images/spire.png" alt="MOM">
-  <em>Using Cloudify as a Manager of Managers</em>
+  <p style="text-align:center">Center this text!</p>
 </figure>
 
 The spire feature allows to control several managers (*local managers*) from one manager (*Spire*) via deploy-on feature.
