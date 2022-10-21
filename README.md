@@ -24,19 +24,19 @@ You can install a sub-manager in the same way as the _main manager (Spire)_. The
 
 
 ### Adding sub-manager through the discovery blueprint
-First step is to deploy [manager_discovery.yaml](/sub manager_discovery/manager_discovery.yaml) with proper inputs:
+First step is to deploy [manager_discovery.yaml](/submanager_discovery/manager_discovery.yaml) with proper inputs:
 - ***endpoint*** - ip of sub manager 
 - ***tenant*** - name of submanagar tenant
 - ***protocol*** - protocol used by sub manager
 - ***port*** - number of port which sub manager is exposed
 
 #### Installation via User Interface
-[Upload](https://docs.cloudify.co/latest/working_with/console/widgets/blueprintuploadbutton/) [manager_discovery.yaml](/sub manager_discovery/manager_discovery.yaml) to Spire Manager.
+[Upload](https://docs.cloudify.co/latest/working_with/console/widgets/blueprintuploadbutton/) [manager_discovery.yaml](/submanager_discovery/manager_discovery.yaml) to Spire Manager.
 
 Next, click ***Deploy*** under the blueprint tile. Instead of this, you can also click on the blueprint name and next ***[Create deployment](https://docs.cloudify.co/latest/working_with/console/widgets/blueprintactionbuttons/)***
 
 After that, the following window will appear:
-![This is an image](/images/sub manager_exposition.png)
+![This is an image](/images/submanager_exposition.png)
 
 Fill all necessary information and click ***Install*** button at the bottom of the dialog to start the ***Install*** workflow.
 To make sure if *Environment* is installed successfully, check the ***Verification of Installation*** chapter in the following part.
@@ -52,7 +52,7 @@ curl -X PUT \
     --header "Tenant: default_tenant" \
     --header "Content-Type: application/json" \
     -u admin:adminpw \
-    "http://localhost/api/v3.1/blueprints/sub manager_blueprint?application_file_name=blueprint.yaml&visibility=tenant&blueprint_archive_url=https://url/to/archive/master.zip&labels=customer=EXL"
+    "http://localhost/api/v3.1/blueprints/submanager_blueprint?application_file_name=blueprint.yaml&visibility=tenant&blueprint_archive_url=https://url/to/archive/master.zip&labels=customer=EXL"
 ```
 
 ##### Create deployment example
@@ -62,7 +62,7 @@ curl -X PUT \
     --header "Content-Type: application/json" \
     -u admin:adminpw \
     -d '{"blueprint_id": "sub manager_blueprint", "inputs": {"cloudify_username": "admin", "cloudify_manager_ip": "10.0.10.10", "cloudify_port": "80", "cloudify_protocol": "http", "cloudify_tenant": "default_tenant"}, "visibility": "tenant", "site_name": "LONDON", "labels": [{"customer": "EXL"}]}' \
-    "http://localhost/api/v3.1/deployments/sub manager1?_include=id"
+    "http://localhost/api/v3.1/deployments/submanager1?_include=id"
 ```
 
 ##### Install example
@@ -72,7 +72,7 @@ curl -X POST \
     --header "Content-Type: application/json" \
     -u admin:admin \
     -d '{"deployment_id":"sub manager1", "workflow_id":"install"}' \
-    "http://localhost/api/v3.1/deployments/sub manager1?_include=id"
+    "http://localhost/api/v3.1/deployments/submanager1?_include=id"
 ```
 #### Another option to install: cloudify CLI.
 
