@@ -1,5 +1,5 @@
-# SPIRE Manager
-![This is an image0](/images/spire.png)
+# Using Cloudify as a Manager of Managers  (a.k.a  MoM or Spire)
+![Spire Manager](/images/spire.png "Using Cloudify as a Manager of Managers")
 
 
 The spire feature allows to control several managers (*local managers*) from one manager (*Spire*) via deploy-on feature.
