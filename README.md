@@ -20,7 +20,7 @@ You can install a sub-manager in the same way as the _main manager (Spire)_. The
 
 ## 3. Exposing sub managers in Spire Manager
 
-***To use local managers through the central Spire manager, you need to expose information about them in Spire via discovery blueprint. The discovery blueprint automate the process of pulling the relevant configuration properties from each manager and placing them as an environment in the Spire manager.***
+***To use local managers through the central Spire manager, you need to expose information about them in Spire via discovery blueprint. The discovery blueprint automate the process of exposing the relevant configuration properties for each manager and placing them as an environment in the Spire manager.***
 
 
 ### Adding sub-manager through the discovery blueprint
