@@ -1,6 +1,11 @@
 # Using Cloudify as a Manager of Managers  (a.k.a  MoM or Spire)
-![Spire Manager](/images/spire.png "Using Cloudify as a Manager of Managers")
-
+<!-- ![Spire Manager]("Using Cloudify as a Manager of Managers") -->
+<figure>
+  <img
+  src="/images/spire.png"
+  alt="The beautiful MDN logo.">
+  <figcaption>MDN Logo</figcaption>
+</figure>
 
 The spire feature allows to control several managers (*local managers*) from one manager (*Spire*) via deploy-on feature.
 The deploy-on feature allows users to deploy services on the discovered environments.
