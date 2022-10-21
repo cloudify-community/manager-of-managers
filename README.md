@@ -1,5 +1,10 @@
 # Using Cloudify as a Manager of Managers  (a.k.a  MoM or Spire)
 
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
 <figure>
     <img src="/images/spire.png"
          alt="Using Cloudify as a Manager of Managers">
