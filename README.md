@@ -1,6 +1,6 @@
 # Using Cloudify as a Manager of Managers  (a.k.a  MoM or Spire)
 
-![Using Cloudify as a Manager of Managers](/images/spire.pdf "Using Cloudify as a Manager of Managers")  
+![Using Cloudify as a Manager of Managers](/images/spire.png "Using Cloudify as a Manager of Managers")  
 *Using Cloudify as a Manager of Managers*
 
 The Cloudify managers of managers (Spire) feature allows control of several managers (*local managers*) from one manager (*Spire*) via the deploy-on feature.
